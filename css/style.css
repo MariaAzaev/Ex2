@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0px 25px;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#logo {
+    margin-left: 25px;
+    padding-left: 10px;
+    margin-bottom: 34px;
+    background: url("../images/Sweet\ Dreams\ -\ logo.png") no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+#logo span {
+    margin-left: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 83px;
+}
+
+.selected {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 1;
+}
+
+header nav a {
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 23px;
+    padding-right: 40px;
+    color: #1F1534;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+header nav a:hover {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 1;
+}
+
+
+.main-title {
+    margin-top: 63px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.home-section section p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.home-section .button {
+    border-radius: 55px;
+    margin-top: 23px;
+    margin-bottom: 101px;
+    padding: 0 30px;
+    Height: 56px;
+    border: 0;
+    display: block;
+    background: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.services p {
+    margin-bottom: 100px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.main-container .item {
+    background-color: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 34px;
+    margin-bottom: 37px;
+    padding-left: 39px;
+    border-radius: 20px;
+    width: 350px;
+    height: 354px;
+}
+
+.icon {
+    width: 91.98px;
+    height: 90px;
+    margin-top: 54px;
+}
+
+.item-title {
+    margin-right: 34px;
+    padding-right: 38.36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.main-container .item p {
+    font-weight: 300;
+    font-size: 16px;
+    padding-right: 34px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.second-button {
+    background-color: white;
+    margin-top: 33px;
+    margin-bottom: 336px;
+    border-radius: 55px;
+    padding-top: 3px;
+    padding-left: 51px;
+    padding-bottom: 1px;
+    padding-right: 51px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+}
+
+.testimonials {
+    margin-top: 20px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    Width: 1120px;
+    Height: 470px;
+    display: block;
+}
+
+.testimonials h3 {
+    padding-top: 25px;
+    padding-left: 25px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.title-home {
+    margin-bottom: 25px;
+}
+
+.title-home h1 {
+    position: absolute;
+    margin-left: 25px;
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    color: #1F1534;
+}
+
+
+.title-home img {
+    position: relative;
+
+}
+
+.testimonials p {
+    Width: 420px;
+    Height: 120px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.testimonials .user {
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 10px 0;
+    margin-left: 24px;
+}
+
+.testimonials h2 {
+    margin-left: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.article a {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    margin: 33px;
+}
+
+.second-main-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.second-main-container .article {
+    padding-top: 3px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 369px;
+    Height: 512px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+
+
+.title-for-article {
+    margin-top: 70px;
+    margin-bottom: 59px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.article-title {
+    padding-top: 21px;
+    padding-bottom: 12px;
+    padding-right: 66px;
+    padding-left: 33px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.article-image {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 369px;
+    height: 246px;
+}
+
+.second-main-container .article p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    padding-left: 35px;
+    padding-top: 12px;
+    margin-bottom: 35px;
+}
+
+.article-button {
+    margin-left: 25px;
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    background-color: white;
+    margin-bottom: 41px;
+    border-radius: 55px;
+    padding-top: 3px;
+    padding-left: 51px;
+    padding-bottom: 1px;
+    padding-right: 51px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100%;
+    padding-right: 0.02px;
+}
+
+footer .social-media-links {
+
+    padding-top: 50px;
+    padding-bottom: 67.97px;
+}
+
+footer .social-media-links a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    padding-left: 25.01px;
+    padding-bottom: 67.97px;
+}
+
+footer p {
+    width: 390.76px;
+    height: 27.55px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 25.01px;
+    padding-top: 133.8px;
+    padding-bottom: 50.26px;
+
+}
